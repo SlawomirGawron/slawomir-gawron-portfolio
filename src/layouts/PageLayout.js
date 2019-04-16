@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ButtonAppBar from "../components/ButtonAppBar";
+import Routing from "../components/Routing";
 
 
 class PageLayout extends Component {
@@ -7,6 +8,7 @@ class PageLayout extends Component {
         return (
             <div>
                 <ButtonAppBar/>
+                <Routing/>
             </div>
         );
     }

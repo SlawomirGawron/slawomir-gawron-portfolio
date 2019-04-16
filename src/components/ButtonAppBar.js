@@ -7,6 +7,9 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from 'react-router-dom';
+
+import SvgIcon from '@material-ui/core/SvgIcon';
 
 const styles = {
     root: {
@@ -30,16 +33,32 @@ function ButtonAppBar(props) {
         <div className={classes.root}>
             <AppBar position="static" className={classes.appBar}>
                 <Toolbar>
+                    {/*Left hand side of menu.*/}
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" color="inherit" className={classes.grow}>
                         S.Gawron Portfolio
                     </Typography>
-                    <Button color="inherit">Resume</Button>
-                    <Button color="inherit">About Me</Button>
-                    <Button color="inherit">Projects</Button>
-                    <Button color="inherit">Contact</Button>
+
+                    {/*Right hand side of menu.*/}
+                    <Button color="inherit" component={Link} to="/">
+                        <SvgIcon {...props}>
+                            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                        </SvgIcon>
+                    </Button>
+                    <Button color="inherit" component={Link} to="/resume">
+                        Resume
+                    </Button>
+                    <Button color="inherit" component={Link} to="/aboutMe">
+                        About Me
+                    </Button>
+                    <Button color="inherit" component={Link} to="/projects">
+                        Projects
+                    </Button>
+                    <Button color="inherit" component={Link} to="/contact">
+                        Contact
+                    </Button>
                 </Toolbar>
             </AppBar>
         </div>
