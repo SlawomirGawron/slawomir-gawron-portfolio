@@ -10,7 +10,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
 import SvgIcon from '@material-ui/core/SvgIcon';
 
-
 const styles = {
     root: {
         flexGrow: 1,
@@ -27,7 +26,7 @@ const styles = {
     },
 };
 
-function ButtonAppBar(props) {
+function MenuAppBar(props) {
     const { classes } = props;
     return (
         <div className={classes.root}>
@@ -65,8 +64,8 @@ function ButtonAppBar(props) {
     );
 }
 
-ButtonAppBar.propTypes = {
+MenuAppBar.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(ButtonAppBar);
+export default withStyles(styles)(MenuAppBar);

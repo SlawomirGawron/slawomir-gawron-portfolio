@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import ButtonAppBar from "../components/ButtonAppBar";
-import Routing from "../components/Routing";
+import ButtonAppBar from "../menuAppBar/MenuAppBar";
+import Routing from "../routing/Routing";
 
 
-class PageLayout extends Component {
+class PortfolioWebsite extends Component {
     render() {
         return (
             <div>
@@ -14,4 +14,4 @@ class PageLayout extends Component {
     }
 }
 
-export default PageLayout;
+export default PortfolioWebsite;

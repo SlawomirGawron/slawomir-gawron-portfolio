@@ -1,0 +1,13 @@
+.landing-page {
+  margin: auto;
+  display: flex;
+  flex: 0 0 100%;
+
+  .landing-page-content {
+    flex: 1 1 auto;
+  }
+
+  .landing-page-menu {
+    flex: 0 0 auto;
+  }
+}

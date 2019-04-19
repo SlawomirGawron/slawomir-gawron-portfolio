@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
-import PageLayout from './layouts/PageLayout';
+import './App.scss';
+import PortfolioWebsite from './components/portfolioWebsite/PortfolioWebsite';
 
 class App extends Component {
   render() {
     return (
         <div>
-          <PageLayout/>
+          <PortfolioWebsite/>
         </div>
     );
   }
