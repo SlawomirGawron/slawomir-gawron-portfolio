@@ -8,8 +8,8 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
-
 import SvgIcon from '@material-ui/core/SvgIcon';
+
 
 const styles = {
     root: {
@@ -34,9 +34,9 @@ function ButtonAppBar(props) {
             <AppBar position="static" className={classes.appBar}>
                 <Toolbar>
                     {/*Left hand side of menu.*/}
-                    <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-                        <MenuIcon />
-                    </IconButton>
+                    {/*<IconButton className={classes.menuButton} color="inherit" aria-label="Menu">*/}
+                        {/*<MenuIcon />*/}
+                    {/*</IconButton>*/}
                     <Typography variant="h6" color="inherit" className={classes.grow}>
                         S.Gawron Portfolio
                     </Typography>
