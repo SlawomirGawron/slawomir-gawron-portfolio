@@ -11,7 +11,7 @@ import ResumePage from '../resumePage/ResumePage';
 
 const Routing = () => (
     <Switch>
-        // Render this when path matches. Needs Link to be defined somewhere.
+        {/*Render this when path matches. Needs Link to be defined somewhere.*/}
         <Route exact path="/" component={LandingPage} />
         <Route path="/aboutMe" component={AboutMePage} />
         <Route path="/contact" component={Contact} />

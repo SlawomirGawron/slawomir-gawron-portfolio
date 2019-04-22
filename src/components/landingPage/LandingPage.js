@@ -6,8 +6,8 @@ import './LandingPage.scss';
 class LandingPage extends Component {
     render() {
         return (
-            <div className={"landing-page"}>
-                <LandingPageMenu />
+            <div className="landing-page">
+                {/*<LandingPageMenu />*/}
                 <LandingPageContent />
             </div>
         );
