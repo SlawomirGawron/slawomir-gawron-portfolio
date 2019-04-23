@@ -6,6 +6,7 @@ import AboutMePage from '../aboutMePage/AboutMePage';
 import Contact from '../contactPage/ContactPage';
 import ProjectsPage from '../projectsPage/ProjectsPage';
 import ResumePage from '../resumePage/ResumePage';
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 
 
@@ -17,6 +18,7 @@ const Routing = () => (
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={ProjectsPage} />
         <Route path="/resume" component={ResumePage} />
+        <Route path="/error" component={ErrorPage} />
     </Switch>
 );
 

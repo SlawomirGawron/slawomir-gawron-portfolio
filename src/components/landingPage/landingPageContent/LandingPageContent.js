@@ -25,7 +25,7 @@ class LandingPageContent extends Component {
                         <div className="banner-text">
                             <h1>Junior Front End Web Developer</h1>
                             <hr />
-                            <p>HTML/CSS | Material-UI | JavaScript | React | NodeJS | MongoDB</p>
+                            <p>HTML/CSS | Material-UI | JavaScript | React | NodeJS | MongoDB | Firebase</p>
                             <hr />
                             <div className="social-links">
                                 {/* Linkedin */}
