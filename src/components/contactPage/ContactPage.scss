@@ -1,0 +1,43 @@
+.contact-page {
+  display: flex;
+  background: white;
+  padding: 2em;
+}
+
+.left-column {
+  background: white;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  width: 80%;
+  height: 550px;
+}
+
+.right-column {
+  background: white;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  width: 80%;
+  height: 550px;
+}
+
+.portfolio-photo-contact {
+  height: 150px;
+}
+
+.contact-paragraph {
+  margin: auto;
+  padding-top: 1em;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 70%;
+  margin: auto;
+}
+
+.contact-right-list {
+  display: flex;
+  justify-content: center;
+}

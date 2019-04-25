@@ -6,7 +6,8 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
-import SvgIcon from '@material-ui/core/SvgIcon';
+
+import HomeIcon from '@material-ui/icons/Home';
 
 import './MenuAppBar.scss';
 
@@ -29,21 +30,29 @@ class MenuAppBar extends Component {
                         {/*Right hand side of menu.*/}
                         <section>
                             <Button color="inherit" component={Link} to="/">
-                                <SvgIcon>
-                                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
-                                </SvgIcon>
+                                <HomeIcon
+                                    style={{fontSize: 25}}
+                                />
                             </Button>
                             <Button color="inherit" component={Link} to="/resume">
-                                Resume
+                                <Typography color="inherit" variant="button">
+                                    Resume
+                                </Typography>
                             </Button>
                             <Button color="inherit" component={Link} to="/aboutMe">
-                                About Me
+                                <Typography color="inherit" variant="button">
+                                    About Me
+                                </Typography>
                             </Button>
                             <Button color="inherit" component={Link} to="/projects">
-                                Projects
+                                <Typography color="inherit" variant="button">
+                                    Projects
+                                </Typography>
                             </Button>
                             <Button color="inherit" component={Link} to="/contact">
-                                Contact
+                                <Typography color="inherit" variant="button">
+                                    Contact
+                                </Typography>
                             </Button>
                         </section>
                     </Toolbar>

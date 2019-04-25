@@ -24,7 +24,9 @@ class ProjectCard extends Component {
                             color="primary"
                             key={button.text}
                     >
-                        {button.text}
+                        <Typography variant="button">
+                            {button.text}
+                        </Typography>
                     </Button>
                 ))}
             </>
