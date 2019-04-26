@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
-import CardActions from "@material-ui/core/CardActions";
-import Button from "@material-ui/core/Button";
-import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea/index";
+import CardMedia from "@material-ui/core/CardMedia/index";
+import CardContent from "@material-ui/core/CardContent/index";
+import Typography from "@material-ui/core/Typography/index";
+import CardActions from "@material-ui/core/CardActions/index";
+import Button from "@material-ui/core/Button/index";
+import Card from "@material-ui/core/Card/index";
 
 class ProjectCard extends Component {
     githubButtonClick(website) {

@@ -1,0 +1,17 @@
+.skills-div {
+  display: flex;
+}
+
+.skills-column-left {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  color: white;
+  padding-left: 2em;
+}
+
+.skills-column-right {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}

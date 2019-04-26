@@ -23,7 +23,7 @@ class Contacts extends Component {
                       direction="row"
                       alignItems="stretch"
                 >
-                    <Grid item xs className="left-column">
+                    <Grid item xs className="left-column-contact">
                         <Typography variant="h3" gutterBottom>
                             Slawomir Gawron
                         </Typography>
@@ -38,7 +38,7 @@ class Contacts extends Component {
                             dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
                         </Typography>
                     </Grid>
-                    <Grid item xs className="right-column">
+                    <Grid item xs className="right-column-contact">
                         <Typography variant="h3" gutterBottom>
                             Contact Me
                         </Typography>
