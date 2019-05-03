@@ -3,9 +3,9 @@ import Grid from "@material-ui/core/Grid";
 import Typography from '@material-ui/core/Typography';
 import './ResumePage.scss';
 import avatar from "../../images/Slawomir-Gawron-Photo.png";
-import Experience from "./experience/Experience";
-import Education from "./education/Education";
-import Skills from "./skills/Skills";
+import Experience from "./Experience/Experience";
+import Education from "./Education/Education";
+import Skills from "./Skills/Skills";
 
 class ResumePage extends Component {
     render() {

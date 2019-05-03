@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import LandingPageMenu from "./landingPageMenu/LandingPageMenu";
-import LandingPageContent from "./landingPageContent/LandingPageContent";
+import LandingPageMenu from "./LandingPageMenu/LandingPageMenu";
+import LandingPageContent from "./LandingPageContent/LandingPageContent";
 import './LandingPage.scss';
 
 class LandingPage extends Component {

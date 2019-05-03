@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ButtonAppBar from "../menuAppBar/MenuAppBar";
-import Routing from "../routing/Routing";
+import ButtonAppBar from "../MenuAppBar/MenuAppBar";
+import Routing from "../Routing/Routing";
 
 
 class PortfolioWebsite extends Component {

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
-import LandingPage from "../landingPage/LandingPage";
-import AboutMePage from '../aboutMePage/AboutMePage';
-import Contact from '../contactPage/ContactPage';
-import ProjectsPage from '../projectsPage/ProjectsPage';
-import ResumePage from '../resumePage/ResumePage';
+import LandingPage from "../LandingPage/LandingPage";
+import AboutMePage from '../AboutMePage/AboutMePage';
+import Contact from '../ContactPage/ContactPage';
+import ProjectsPage from '../ProjectsPage/ProjectsPage';
+import ResumePage from '../ResumePage/ResumePage';
 import ErrorPage from "../ErrorPage/ErrorPage";
 
 
