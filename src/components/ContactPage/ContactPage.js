@@ -7,10 +7,9 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import SmartphoneIcon from '@material-ui/icons/Smartphone';
+import avatar from "src/images/Slawomir-Gawron-Photo.png";
+
 import './ContactPage.scss';
-import avatar from "../../images/Slawomir-Gawron-Photo.png";
-
-
 
 class Contacts extends Component {
     render() {
