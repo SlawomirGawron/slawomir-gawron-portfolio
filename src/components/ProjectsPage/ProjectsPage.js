@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
-import ProjectCard from "src/components/ProjectsPage/ProjectCard/ProjectCard";
+import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
 
 class ProjectsPage extends Component {
     constructor (props) {

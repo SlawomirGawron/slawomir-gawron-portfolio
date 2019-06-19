@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import avatar from "src/images/Slawomir-Gawron-Photo.png";
 import Education from "src/components/ResumePage/Education/Education";
 import Experience from "src/components/ResumePage/Experience/Experience";
-import Skills from "src/components/ResumePage/Skills/Skills";
+import Skills from "src/components/ResumePage/skills/Skills";
 
 import './ResumePage.scss';
 
