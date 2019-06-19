@@ -3,9 +3,9 @@ import Grid from "@material-ui/core/Grid";
 import Typography from '@material-ui/core/Typography';
 
 import avatar from "src/images/Slawomir-Gawron-Photo.png";
-import Education from "src/components/ResumePage/Education/Education";
-import Experience from "src/components/ResumePage/Experience/Experience";
-import Skills from "src/components/ResumePage/skills/Skills";
+import Education from "src/components/resumePage/Education/Education";
+import Experience from "src/components/resumePage/Experience/Experience";
+import Skills from "src/components/resumePage/skills/Skills";
 
 import './ResumePage.scss';
 

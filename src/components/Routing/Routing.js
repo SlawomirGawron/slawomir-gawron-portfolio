@@ -3,8 +3,8 @@ import { Switch, Route } from "react-router-dom";
 
 import LandingPage from "src/components/LandingPage/LandingPage";
 import AboutMePage from "src/components/AboutMePage/AboutMePage";
-import ProjectsPage from "src/components/ProjectsPage/ProjectsPage";
-import ResumePage from "src/components/ResumePage/ResumePage";
+import ProjectsPage from "src/components/projectsPage/ProjectsPage";
+import ResumePage from "src/components/resumePage/ResumePage";
 import ErrorPage from "src/components/ErrorPage/ErrorPage";
 import ContactPage from "src/components/ContactPage/ContactPage";
 
