@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import ButtonAppBar from "../MenuAppBar/MenuAppBar";
-import Routing from "../Routing/Routing";
-
+import Routing from "src/components/Routing/Routing";
+import MenuAppBar from "src/components/MenuAppBar/MenuAppBar";
 
 class PortfolioWebsite extends Component {
     render() {
         return (
             <div>
-                <ButtonAppBar/>
+                <MenuAppBar/>
                 <Routing/>
             </div>
         );

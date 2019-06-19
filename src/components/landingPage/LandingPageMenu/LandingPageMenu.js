@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './LandingPageMenu.scss';
 
 class LandingPageMenu extends Component {

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './LandingPageContent.scss';
 import Grid from '@material-ui/core/Grid';
-import avatar from '../../../images/Slawomir-Gawron-Photo.png';
+import avatar from 'src/images/Slawomir-Gawron-Photo.png';
+
+import './LandingPageContent.scss';
 
 class LandingPageContent extends Component {
     render() {

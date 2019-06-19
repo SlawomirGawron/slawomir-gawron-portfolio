@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Grid from "@material-ui/core/Grid";
 import Typography from '@material-ui/core/Typography';
+
+import avatar from "src/images/Slawomir-Gawron-Photo.png";
+import Education from "src/components/ResumePage/Education/Education";
+import Experience from "src/components/ResumePage/Experience/Experience";
+import Skills from "src/components/ResumePage/Skills/Skills";
+
 import './ResumePage.scss';
-import avatar from "../../images/Slawomir-Gawron-Photo.png";
-import Experience from "./Experience/Experience";
-import Education from "./Education/Education";
-import Skills from "./Skills/Skills";
 
 class ResumePage extends Component {
     render() {

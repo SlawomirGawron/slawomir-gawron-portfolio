@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import './Education.scss';
+
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
+
+import './Education.scss';
 
 class Education extends Component {
     render() {

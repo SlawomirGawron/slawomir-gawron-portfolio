@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import LinearProgress from '@material-ui/core/LinearProgress';
+
 import './Skills.scss';
 
 const styles = theme => ({
