@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './App.scss';
 import PortfolioWebsite from "src/components/PortfolioWebsite/PortfolioWebsite";
 
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
-        <div>
+        <div className="main-app">
           <PortfolioWebsite/>
         </div>
     );

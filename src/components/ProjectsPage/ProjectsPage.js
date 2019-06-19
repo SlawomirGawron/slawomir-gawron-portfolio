@@ -3,6 +3,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
 import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
+import projectZeroImage from "src/images/TicTacToe.png";
 
 class ProjectsPage extends Component {
     constructor (props) {
@@ -25,14 +26,14 @@ class ProjectsPage extends Component {
                     alt="project-0"
                     className="project-0-name0"
                     height="140"
-                    image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSshWiWv45FVxyM80R8ayP_bBIpJW4r-wQCQiEyz-sREDCTi8Qp"
-                    title="Title 0"
-                    summary="Tab 0 summary"
+                    image={projectZeroImage}
+                    title="Tic Tac Toe"
+                    summary="A simple Tic Tac Toe game built using react."
                     buttonsList={
                         [
-                            {text: "Learn More", url: "https://www.google.ca/"},
-                            {text: "button 1", url: "https://react-redux.js.org/"},
-                            {text: "button 2", url: "https://react-redux.js.org/"},
+                            {text: "Learn More", url: "https://en.wikipedia.org/wiki/Tic-tac-toe"},
+                            {text: "Website", url: "https://sgawron-react-game.netlify.com/"},
+                            {text: "Github", url: "https://github.com/SlawomirGawron/react-game"},
                         ]
                     }
                 />

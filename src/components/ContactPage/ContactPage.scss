@@ -1,5 +1,6 @@
 .contact-page {
   display: flex;
+  height: 100%;
   background: white;
   padding: 2em;
 }
@@ -24,11 +25,12 @@
 
 .portfolio-photo-contact {
   height: 150px;
+  padding-top: 1em;
 }
 
 .contact-paragraph {
   margin: auto;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 .contact-grid hr {

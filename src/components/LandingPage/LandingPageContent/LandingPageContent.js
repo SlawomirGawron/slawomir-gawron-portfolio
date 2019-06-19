@@ -26,16 +26,16 @@ class LandingPageContent extends Component {
                         <div className="banner-text">
                             <h1>Junior Front End Web Developer</h1>
                             <hr />
-                            <p>HTML/CSS | Material-UI | JavaScript | React | NodeJS | MongoDB | Firebase</p>
+                            <p> React | HTML/CSS | JavaScript | Java | SQL </p>
                             <hr />
                             <div className="social-links">
                                 {/* Linkedin */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/slawomir-gawron/" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-linkedin"/>
                                 </a>
 
                                 {/* Github */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/SlawomirGawron" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-github"/>
                                 </a>
                             </div>

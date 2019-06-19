@@ -26,15 +26,16 @@ class Contacts extends Component {
                         <Typography variant="h3" gutterBottom>
                             Slawomir Gawron
                         </Typography>
+                        <hr />
                         <img
                             src={avatar}
                             alt="portfolio-avatar"
                             className="portfolio-photo-contact"
                         />
                         <Typography className="contact-paragraph" variant="body1" gutterBottom>
-                            body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
-                            unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam
-                            dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+                            <b>Preferred method of contact:</b> email <br/>
+                            <b>Availability</b> 10:00 am - 7:00 pm <br/>
+                            If necessary, I can use other forms of communication.
                         </Typography>
                     </Grid>
                     <Grid item xs className="right-column-contact">
@@ -70,7 +71,7 @@ class Contacts extends Component {
                                     <ListItemText
                                         primary={
                                             <Typography variant="h6" style={{ color: '#ff6f00' }}>
-                                                (647) 409-1935
+                                                SlawomirGawron8@gmail.com
                                             </Typography>
                                         }
                                         secondary="Checked daily" />
