@@ -33,10 +33,11 @@ class ProjectsPage extends Component {
                     image={TicTacToeGameImage}
                     title="Tic Tac Toe"
                     summary="A simple Tic Tac Toe game built using react."
+                    onImageClickURL="https://sgawron-react-game.netlify.com/"
                     buttonsList={
                         [
                             {text: "Learn More", url: "https://en.wikipedia.org/wiki/Tic-tac-toe"},
-                            {text: "Website", url: "https://sgawron-react-game.netlify.com/"},
+                            {text: "Game Link", url: "https://sgawron-react-game.netlify.com/"},
                             {text: "Github", url: "https://github.com/SlawomirGawron/react-game"},
                         ]
                     }
@@ -54,6 +55,7 @@ class ProjectsPage extends Component {
                     image="https://assets.exercism.io/tracks/java-bordered-turquoise.png"
                     title="Title 1"
                     summary="Tab 1 summary"
+                    onImageClickURL="https://react-redux.js.org/"
                     buttonsList={
                         [
                             {text: "Learn More", url: "https://www.google.ca/"},
@@ -76,6 +78,7 @@ class ProjectsPage extends Component {
                     image="https://raddevon.com/wp-content/uploads/2018/10/react.jpg"
                     title="Title 2"
                     summary="Tab 2 summary"
+                    onImageClickURL="https://react-redux.js.org/"
                     buttonsList={
                         [
                             {text: "Learn More", url: "https://www.google.ca/"},

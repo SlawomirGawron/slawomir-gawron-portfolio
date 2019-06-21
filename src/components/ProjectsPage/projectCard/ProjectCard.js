@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button/index";
 import Card from "@material-ui/core/Card/index";
 
 class ProjectCard extends Component {
-    onWebsiteRedirectButtonClick(website) {
+    onClickRedirectToWebsite(website) {
         return (
             window.open(website, "_blank")
         );
@@ -21,7 +21,7 @@ class ProjectCard extends Component {
         return (
             <>
                 {buttonsList.map(button => (
-                    <Button onClick={() => {this.onWebsiteRedirectButtonClick(button.url)}}
+                    <Button onClick={() => {this.onClickRedirectToWebsite(button.url)}}
                             size="small"
                             color="primary"
                             key={button.text}
@@ -33,6 +33,12 @@ class ProjectCard extends Component {
                 ))}
             </>
         );
+    }
+
+    onClickImage() {
+        const { onImageClickURL } = this.props;
+        this.onClickRedirectToWebsite( onImageClickURL );
+
     }
 
     render() {
@@ -47,10 +53,6 @@ class ProjectCard extends Component {
         } = this.props;
 
         return (
-            // card
-            //style={{maxWidth: 345}}
-            // card media
-            // height={height}
             <Card
                 className="project-card"
                 style={{
@@ -60,6 +62,7 @@ class ProjectCard extends Component {
             >
                 <CardActionArea>
                     <CardMedia
+                        onClick={() => this.onClickImage()}
                         component={component}
                         alt={alt}
                         className={className}
@@ -70,15 +73,16 @@ class ProjectCard extends Component {
                             width: imageWidthInpx
                         }}
                     />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            {title}
-                        </Typography>
-                        <Typography component="p">
-                            {summary}
-                        </Typography>
-                    </CardContent>
                 </CardActionArea>
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                        {title}
+                    </Typography>
+                    <Typography component="p">
+                        {summary}
+                    </Typography>
+                </CardContent>
+
                 <CardActions>
                     {this.createButtons()}
                 </CardActions>
@@ -96,6 +100,7 @@ ProjectCard.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
+    onImageClickURL: PropTypes.string.isRequired,
     buttonsList: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
