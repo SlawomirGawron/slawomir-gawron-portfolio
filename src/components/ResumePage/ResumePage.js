@@ -61,7 +61,7 @@ class ResumePage extends Component {
                             Website
                         </Typography>
                         <Typography variant="body1" gutterBottom>
-                            mywebsite.com
+                            SlawomirGawron.ca
                         </Typography>
                         <hr style={{borderTop: "3px solid black", width: "100%"}}/>
                     </Grid>

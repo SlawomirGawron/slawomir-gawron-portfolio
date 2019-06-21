@@ -3,7 +3,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
 import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
-import projectZeroImage from "src/images/TicTacToe.png";
+import TicTacToeGameImage from "src/images/TicTacToe.png";
+import PropTypes from "prop-types";
 
 class ProjectsPage extends Component {
     constructor (props) {
@@ -18,15 +19,18 @@ class ProjectsPage extends Component {
     };
 
     toggleCategories() {
+        const { activeTab } = this.state;
+
         {/* React */}
-        if (this.state.activeTab === 0) {
+        if (activeTab === 0) {
             return (
                 <ProjectCard
                     component="img"
                     alt="project-0"
                     className="project-0-name0"
-                    height="140"
-                    image={projectZeroImage}
+                    imageHeightInpx="250px"
+                    imageWidthInpx="400px"
+                    image={TicTacToeGameImage}
                     title="Tic Tac Toe"
                     summary="A simple Tic Tac Toe game built using react."
                     buttonsList={
@@ -39,13 +43,14 @@ class ProjectsPage extends Component {
                 />
             );
         {/* Java */}
-        } else if (this.state.activeTab === 1) {
+        } else if (activeTab === 1) {
             return (
                 <ProjectCard
                     component="img"
                     alt="project-1"
                     className="project-1-name1"
-                    height="140"
+                    imageHeightInpx="300px"
+                    imageWidthInpx="400px"
                     image="https://assets.exercism.io/tracks/java-bordered-turquoise.png"
                     title="Title 1"
                     summary="Tab 1 summary"
@@ -60,13 +65,14 @@ class ProjectsPage extends Component {
                 />
             );
         {/* Other */}
-        } else if (this.state.activeTab === 2) {
+        } else if (activeTab === 2) {
             return (
                 <ProjectCard
                     component="img"
                     alt="project-2"
                     className="project-2-name2"
-                    height="140"
+                    imageHeightInpx="300px"
+                    imageWidthInpx="400px"
                     image="https://raddevon.com/wp-content/uploads/2018/10/react.jpg"
                     title="Title 2"
                     summary="Tab 2 summary"
@@ -87,10 +93,12 @@ class ProjectsPage extends Component {
     }
 
     render() {
+        const { activeTab } = this.state;
+
         return (
             <div className="category-tabs">
                 <Tabs
-                    value={this.state.activeTab}
+                    value={activeTab}
                     onChange={this.handleChange}
                     indicatorColor="primary"
                     textColor="primary"
