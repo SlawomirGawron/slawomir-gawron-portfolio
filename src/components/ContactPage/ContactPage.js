@@ -8,6 +8,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import SmartphoneIcon from '@material-ui/icons/Smartphone';
 import avatar from "src/images/Slawomir-Gawron-Photo.png";
+import addCustomScrollbars from "src/HOC/addCustomScrollbars/addCustomScrollbars";
 
 import './ContactPage.scss';
 
@@ -85,4 +86,4 @@ class Contacts extends Component {
     }
 }
 
-export default Contacts;
+export default addCustomScrollbars(Contacts);

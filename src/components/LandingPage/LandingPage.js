@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LandingPageContent from "src/components/LandingPage/LandingPageContent/LandingPageContent";
+import addCustomScrollbars from "src/HOC/addCustomScrollbars/addCustomScrollbars";
 
 import './LandingPage.scss';
 
@@ -13,4 +14,4 @@ class LandingPage extends Component {
     }
 }
 
-export default LandingPage;
+export default addCustomScrollbars(LandingPage);

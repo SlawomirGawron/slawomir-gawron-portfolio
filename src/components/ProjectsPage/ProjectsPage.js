@@ -4,7 +4,9 @@ import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
 import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
 import TicTacToeGameImage from "src/images/TicTacToe.png";
-import PropTypes from "prop-types";
+import addCustomScrollbars from "src/HOC/addCustomScrollbars/addCustomScrollbars";
+
+import './ProjectsPage.scss';
 
 class ProjectsPage extends Component {
     constructor (props) {
@@ -21,7 +23,7 @@ class ProjectsPage extends Component {
     toggleCategories() {
         const { activeTab } = this.state;
 
-        {/* React */}
+        // React
         if (activeTab === 0) {
             return (
                 <ProjectCard
@@ -43,7 +45,7 @@ class ProjectsPage extends Component {
                     }
                 />
             );
-        {/* Java */}
+        // Java
         } else if (activeTab === 1) {
             return (
                 <ProjectCard
@@ -66,7 +68,7 @@ class ProjectsPage extends Component {
 
                 />
             );
-        {/* Other */}
+        // Other
         } else if (activeTab === 2) {
             return (
                 <ProjectCard
@@ -132,4 +134,4 @@ class ProjectsPage extends Component {
     }
 }
 
-export default ProjectsPage;
+export default addCustomScrollbars(ProjectsPage);

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import addCustomScrollbars from "src/HOC/addCustomScrollbars/addCustomScrollbars";
 
 import './ErrorPage.scss';
 
@@ -12,4 +13,4 @@ class ErrorPage extends Component {
     }
 }
 
-export default ErrorPage;
+export default addCustomScrollbars(ErrorPage);
