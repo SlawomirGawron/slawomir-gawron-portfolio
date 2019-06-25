@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Scrollbars } from 'react-custom-scrollbars';
 
 import 'src/HOC/addCustomScrollbars/addCustomScrollbars.scss';
 
@@ -13,16 +12,9 @@ function addCustomScrollbars(WrappedComponent) {
     class AddCustomScrollbars extends Component {
         render() {
             return (
-                <Scrollbars
-                    autoHide={false}
-                    renderTrackVertical={props => <div {...props} className="track-vertical"/>}
-                    renderThumbVertical={props => <div {...props} className="thumb-vertical"/>}
-
-                    renderTrackHorizontal={props => <div {...props} className="track-horizontal"/>}
-                    renderThumbHorizontal={props => <div {...props} className="thumb-horizontal"/>}
-                >
+                <div className="add-custom-scrollbars">
                     <WrappedComponent {...this.props}/>
-                </Scrollbars>
+                </div>
             );
         }
     }
