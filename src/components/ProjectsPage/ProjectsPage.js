@@ -101,8 +101,9 @@ class ProjectsPage extends Component {
         const { activeTab } = this.state;
 
         return (
-            <div className="category-tabs">
+            <div className="projects-page">
                 <Tabs
+                    className="projects-page-tabs"
                     value={activeTab}
                     onChange={this.handleChange}
                     indicatorColor="primary"
@@ -116,7 +117,7 @@ class ProjectsPage extends Component {
 
                 <Grid container
                       spacing={16}
-                      className="projects-grid"
+                      className="projects-page-grid"
                       alignItems="center"
                       direction="column"
                       justify="center"
@@ -127,8 +128,6 @@ class ProjectsPage extends Component {
                         </div>
                     </Grid>
                 </Grid>
-
-
             </div>
         );
     }

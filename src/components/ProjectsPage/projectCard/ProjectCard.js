@@ -8,6 +8,8 @@ import CardActions from "@material-ui/core/CardActions/index";
 import Button from "@material-ui/core/Button/index";
 import Card from "@material-ui/core/Card/index";
 
+import './ProjectCard.scss';
+
 class ProjectCard extends Component {
     onClickRedirectToWebsite(website) {
         return (
