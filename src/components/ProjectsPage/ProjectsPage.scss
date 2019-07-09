@@ -1,3 +1,5 @@
+@import "src/common/utilities/variables.scss";
+
 .projects-page {
   display: flex;
   flex: 1;
@@ -12,8 +14,9 @@
 
 .projects-page-grid {
   max-width: 100%;
-  background: #373B44; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: $page-fallback-background;
+  background: $page-background1;
+  background: $page-background2;
+  padding: $page-padding;
   height: 100vh;
 }
