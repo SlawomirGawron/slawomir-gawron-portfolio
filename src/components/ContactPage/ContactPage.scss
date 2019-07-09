@@ -2,7 +2,7 @@
   background: #373B44; /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 1em;
+  padding: 1rem;
   display: flex;
   flex: 1;
 }
@@ -12,7 +12,7 @@
   text-align: center;
   justify-content: center;
   color: black;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .right-column-contact {
@@ -20,17 +20,17 @@
   text-align: center;
   justify-content: center;
   color: black;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .portfolio-photo-contact {
   height: 150px;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .contact-paragraph {
   margin: auto;
-  padding-top: 0.5em;
+  padding-top: 0.5rem;
 }
 
 .contact-grid hr {
