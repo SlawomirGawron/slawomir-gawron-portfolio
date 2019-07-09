@@ -45,3 +45,21 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 650px) {
+  .phone-contact-right-list {
+    flex-direction: column;
+  }
+
+  .email-contact-right-list {
+    flex-direction: column;
+  }
+
+  .phone-text-contact-right-list {
+    text-align: center;
+  }
+
+  .email-text-contact-right-list {
+    text-align: center;
+  }
+}

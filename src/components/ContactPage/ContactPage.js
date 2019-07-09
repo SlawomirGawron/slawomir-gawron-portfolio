@@ -23,7 +23,7 @@ class Contacts extends Component {
                       direction="row"
                       alignItems="stretch"
                 >
-                    <Grid item xs className="left-column-contact">
+                    <Grid item xs={12} sm={12} md={6} lg={6} className="left-column-contact">
                         <Typography variant="h3" gutterBottom>
                             Slawomir Gawron
                         </Typography>
@@ -39,21 +39,22 @@ class Contacts extends Component {
                             If necessary, I can use other forms of communication.
                         </Typography>
                     </Grid>
-                    <Grid item xs className="right-column-contact">
+                    <Grid item xs={12} sm={12} md={6} lg={6} className="right-column-contact">
                         <Typography variant="h3" gutterBottom>
                             Contact Me
                         </Typography>
                         <hr />
                         <div className="contact-right-list">
+                            {/* Phone */}
                             <List>
-                                {/* Phone */}
-                                <ListItem>
+                                <ListItem className="phone-contact-right-list">
                                     <ListItemIcon>
                                         <SmartphoneIcon
                                             style={{fontSize: 40, color: "green"}}
                                         />
                                     </ListItemIcon>
                                     <ListItemText
+                                        className="phone-text-contact-right-list"
                                         primary={
                                             <Typography variant="h6" style={{ color: '#ff6f00' }}>
                                                 (647) 409-1935
@@ -63,13 +64,14 @@ class Contacts extends Component {
                                 </ListItem>
 
                                 {/* Email */}
-                                <ListItem>
+                                <ListItem className="email-contact-right-list">
                                     <ListItemIcon>
                                         <EmailOutlinedIcon
                                             style={{fontSize: 40, color: "green"}}
                                         />
                                     </ListItemIcon>
                                     <ListItemText
+                                        className="email-text-contact-right-list"
                                         primary={
                                             <Typography variant="h6" style={{ color: '#ff6f00' }}>
                                                 SlawomirGawron8@gmail.com

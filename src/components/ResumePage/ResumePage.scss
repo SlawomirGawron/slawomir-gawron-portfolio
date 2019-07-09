@@ -5,7 +5,8 @@
   background: $page-background1;
   background: $page-background2;
   padding: $page-padding;
-  height: 100vh;
+  display: flex;
+  flex: 1;
 }
 
 .left-column-resume {

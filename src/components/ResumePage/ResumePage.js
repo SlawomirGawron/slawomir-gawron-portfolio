@@ -21,7 +21,7 @@ class ResumePage extends Component {
                       alignItems="stretch"
                 >
                     {/* Left column */}
-                    <Grid item xs className="left-column-resume">
+                    <Grid item xs={12} sm={12} md={3} lg={3} className="left-column-resume">
                         <img
                             src={avatar}
                             alt="portfolio-avatar"
@@ -68,7 +68,7 @@ class ResumePage extends Component {
                     </Grid>
 
                     {/* Right column */}
-                    <Grid item xs={9} className="right-column-resume">
+                    <Grid item xs={12} sm={12} md={9} lg={9} className="right-column-resume">
                         {/* Education */}
                         <Typography color="inherit" variant="h4" gutterBottom>
                             Education
@@ -112,7 +112,6 @@ class ResumePage extends Component {
                             skill="SQL"
                             progress={75}
                         />
-
                     </Grid>
                 </Grid>
             </div>

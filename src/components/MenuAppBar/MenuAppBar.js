@@ -15,17 +15,14 @@ class MenuAppBar extends Component {
                 <AppBar position="static" className="app-bar">
                     <Toolbar className="toolbar">
                         {/*Left hand side of menu.*/}
-                        <section>
-                            {/*<IconButton className={classes.menuButton} color="inherit" aria-label="Menu">*/}
-                            {/*<MenuIcon />*/}
-                            {/*</IconButton>*/}
+                        <section className="left-side-menu">
                             <Typography variant="h6" color="inherit">
                                 S.Gawron Portfolio
                             </Typography>
                         </section>
 
                         {/*Right hand side of menu.*/}
-                        <section>
+                        <section className="right-side-menu">
                             <Button color="inherit" component={Link} to="/">
                                 <HomeIcon
                                     style={{fontSize: 25}}

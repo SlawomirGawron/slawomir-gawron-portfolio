@@ -15,14 +15,14 @@ class LandingPageContent extends Component {
                       direction="column"
                       justify="center"
                 >
-                    <Grid item>
+                    <Grid item xs={12} sm={12} md={12} lg={12}>
                         <img
                             src={avatar}
                             alt="portfolio-avatar"
                             className="portfolio-photo"
                         />
                     </Grid>
-                    <Grid item>
+                    <Grid item xs={12} sm={12} md={12} lg={12}>
                         <div className="banner-text">
                             <h1>Junior Front End Web Developer</h1>
                             <hr />

@@ -1,6 +1,6 @@
 @import "src/common/utilities/variables.scss";
 
-.toolbar{
+.toolbar {
   justify-content: space-between;
 }
 
@@ -10,3 +10,22 @@
   background: $menu-background1;
   background: $menu-background2;
 }
+
+@media screen and (max-width: 650px) {
+  .toolbar {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-side-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-side-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+

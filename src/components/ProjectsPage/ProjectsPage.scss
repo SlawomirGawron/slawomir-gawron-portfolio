@@ -8,15 +8,13 @@
 
 .projects-page-tabs {
   flex: 0;
-  padding-bottom: 9px;
-
+  padding-bottom: 1rem;
 }
 
 .projects-page-grid {
-  max-width: 100%;
   background: $page-fallback-background;
   background: $page-background1;
   background: $page-background2;
   padding: $page-padding;
-  height: 100vh;
+  flex: 1;
 }
