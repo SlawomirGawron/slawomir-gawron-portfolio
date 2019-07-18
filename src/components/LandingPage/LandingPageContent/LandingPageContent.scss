@@ -1,18 +1,11 @@
 @import "src/common/utilities/variables.scss";
 
 .landing-page-content {
+  display: flex;
   flex: 1 1 auto;
 }
 
-.portfolio-photo {
-  height: 250px;
-  padding-top: 5em;
-}
-
 .banner-text {
-  background: $menu-fallback-background;
-  background: $menu-background1;
-  background: $menu-background2;
   width: 100%;
   margin: auto;
   border-radius: 10px;
@@ -26,12 +19,6 @@
   font-weight: bold;
   color: white;
   padding: 20px;
-}
-
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 100%;
-  margin: auto;
 }
 
 .banner-text p {
