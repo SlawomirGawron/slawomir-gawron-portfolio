@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import addCustomScrollbars from "src/HOC/addCustomScrollbars/addCustomScrollbars";
+import addMenuBarToComponent from "src/HOC/addCustomScrollbars/addMenuBarToComponent";
 
 import './ErrorPage.scss';
 
@@ -13,4 +13,4 @@ class ErrorPage extends Component {
     }
 }
 
-export default addCustomScrollbars(ErrorPage);
+export default addMenuBarToComponent(ErrorPage);

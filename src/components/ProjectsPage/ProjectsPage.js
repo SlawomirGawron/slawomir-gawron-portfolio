@@ -4,7 +4,7 @@ import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
 import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
 import TicTacToeGameImage from "src/images/TicTacToe.png";
-import addCustomScrollbars from "src/HOC/addCustomScrollbars/addCustomScrollbars";
+import addMenuBarToComponent from "src/HOC/addCustomScrollbars/addMenuBarToComponent";
 
 import './ProjectsPage.scss';
 
@@ -132,4 +132,4 @@ class ProjectsPage extends Component {
     }
 }
 
-export default addCustomScrollbars(ProjectsPage);
+export default addMenuBarToComponent(ProjectsPage);

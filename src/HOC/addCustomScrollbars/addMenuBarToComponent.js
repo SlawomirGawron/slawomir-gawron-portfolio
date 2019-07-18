@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import MenuAppBar from "src/components/MenuAppBar/MenuAppBar";
 
-import 'src/HOC/addCustomScrollbars/addCustomScrollbars.scss';
+import 'src/HOC/addCustomScrollbars/addMenuBarToComponent.scss';
+
 
 function getDisplayName(WrappedComponent) {
     return (
@@ -8,20 +10,21 @@ function getDisplayName(WrappedComponent) {
     );
 }
 
-function addCustomScrollbars(WrappedComponent) {
+function addMenuBarToComponent(WrappedComponent) {
     class AddCustomScrollbars extends Component {
         render() {
             return (
-                <div className="add-custom-scrollbars">
+                <div className="add-menu-to-component">
+                    <MenuAppBar/>
                     <WrappedComponent {...this.props}/>
                 </div>
             );
         }
     }
 
-    AddCustomScrollbars.displayName = `AddCustomScrollbars(${getDisplayName(WrappedComponent)})`;
+    AddCustomScrollbars.displayName = `AddMenuToComponent(${getDisplayName(WrappedComponent)})`;
 
     return AddCustomScrollbars;
 }
 
-export default addCustomScrollbars;
+export default addMenuBarToComponent;

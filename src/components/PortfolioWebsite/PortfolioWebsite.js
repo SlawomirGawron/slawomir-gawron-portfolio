@@ -8,7 +8,6 @@ class PortfolioWebsite extends Component {
     render() {
         return (
             <div className="portfolio-website">
-                <MenuAppBar/>
                 <Routing/>
             </div>
         );

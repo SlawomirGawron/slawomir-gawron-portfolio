@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import addCustomScrollbars from "src/HOC/addCustomScrollbars/addCustomScrollbars";
+import addMenuBarToComponent from "src/HOC/addCustomScrollbars/addMenuBarToComponent";
 
 import './AboutMePage.scss';
 
@@ -60,4 +60,4 @@ class AboutMePage extends Component {
     }
 }
 
-export default addCustomScrollbars(AboutMePage);
+export default addMenuBarToComponent(AboutMePage);
