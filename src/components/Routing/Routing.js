@@ -16,7 +16,7 @@ const Routing = () => (
         <Route path="/contact" component={ContactPage} />
         <Route path="/projects" component={ProjectsPage} />
         <Route path="/resume" component={ResumePage} />
-        <Route path="/error" component={ErrorPage} />
+        <Route component={ErrorPage}></Route>
     </Switch>
 );
 

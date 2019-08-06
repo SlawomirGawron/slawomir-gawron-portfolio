@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Routing from "src/components/Routing/Routing";
-import MenuAppBar from "src/components/MenuAppBar/MenuAppBar";
 
 import './PortfolioWebsite.scss';
 
