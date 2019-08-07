@@ -8,7 +8,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import SmartphoneIcon from '@material-ui/icons/Smartphone';
 import avatar from "src/images/Slawomir-Gawron-Photo.png";
-import addMenuBarToComponent from "src/HOC/addCustomScrollbars/addMenuBarToComponent";
+import addMenuBarToComponent from "src/HOC/addMenuBarToComponent/addMenuBarToComponent";
 
 import './ContactPage.scss';
 

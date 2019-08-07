@@ -6,8 +6,12 @@ import './LandingPage.scss';
 class LandingPage extends Component {
     render() {
         return (
-            <div className="landing-page">
-                <LandingPageContent />
+            <div className="home-page">
+                <div id="home-page-background"/>
+                <div id="home-page-background-overlay"/>
+                <div className="landing-page">
+                    <LandingPageContent />
+                </div>
             </div>
         );
     }

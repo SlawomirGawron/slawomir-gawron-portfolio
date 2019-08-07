@@ -4,7 +4,7 @@ import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
 import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
 import TicTacToeGameImage from "src/images/TicTacToe.png";
-import addMenuBarToComponent from "src/HOC/addCustomScrollbars/addMenuBarToComponent";
+import addMenuBarToComponent from "src/HOC/addMenuBarToComponent/addMenuBarToComponent";
 
 import './ProjectsPage.scss';
 

@@ -5,7 +5,7 @@ import Education from "src/components/ResumePage/Education/Education";
 import Experience from "src/components/ResumePage/Experience/Experience";
 import Skills from "src/components/ResumePage/skills/Skills";
 import avatar from "src/images/Slawomir-Gawron-Photo.png";
-import addMenuBarToComponent from "src/HOC/addCustomScrollbars/addMenuBarToComponent";
+import addMenuBarToComponent from "src/HOC/addMenuBarToComponent/addMenuBarToComponent";
 
 import './ResumePage.scss';
 

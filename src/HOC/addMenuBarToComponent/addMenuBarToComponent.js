@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MenuAppBar from "src/components/MenuAppBar/MenuAppBar";
 
-import 'src/HOC/addCustomScrollbars/addMenuBarToComponent.scss';
+import 'src/HOC/addMenuBarToComponent/addMenuBarToComponent.scss';
 
 
 function getDisplayName(WrappedComponent) {
