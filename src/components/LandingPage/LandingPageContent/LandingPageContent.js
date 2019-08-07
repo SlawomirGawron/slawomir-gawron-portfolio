@@ -8,7 +8,7 @@ class LandingPageContent extends Component {
     render() {
         return (
             <div className="landing-page-content">
-                <div className="banner-text" id="header">
+                <div className="landing-page-content-header">
                     <h1>Junior Front End Web Developer</h1>
                     <p> React &nbsp;&bull;&nbsp; HTML/CSS &nbsp;&bull;&nbsp; JavaScript &nbsp;&bull;&nbsp; Java &nbsp;&bull;&nbsp; SQL </p>
                     <nav>
@@ -33,8 +33,8 @@ class LandingPageContent extends Component {
                         </Typography>
                     </Button>
                 </div>
-                <div id="footer">
-                    <footer id="footer">
+                <div>
+                    <footer className="landing-page-content-footer">
                         <span className="developer-name">Made by Slawomir Gawron</span>
                     </footer>
                 </div>

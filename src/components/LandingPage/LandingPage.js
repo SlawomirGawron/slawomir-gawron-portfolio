@@ -7,8 +7,8 @@ class LandingPage extends Component {
     render() {
         return (
             <div className="home-page">
-                <div id="home-page-background"/>
-                <div id="home-page-background-overlay"/>
+                <div className="home-page-background"/>
+                <div className="home-page-background-overlay"/>
                 <div className="landing-page">
                     <LandingPageContent />
                 </div>

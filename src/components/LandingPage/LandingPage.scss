@@ -13,7 +13,7 @@
   }
 
 /* Background */
-  #home-page-background {
+  .home-page-background {
     -moz-animation: background  60s linear infinite;
     -webkit-animation: background  60s linear infinite;
     -ms-animation: background  60s linear infinite;
@@ -28,7 +28,7 @@
     transform: translate3d(0,0,0);
     /* Set your background with this */
 
-    background: #348cb2 url(../../images/home-background.jpg) repeat-x bottom left;
+    background: black url(../../images/home-background-galaxy.jpg) repeat-x bottom left;
     height: 100%;
     left: 0;
     opacity: 1;
@@ -101,8 +101,8 @@
       }
     }
 
-  #home-page-background  {
-    background-size: 2250px auto;
+  .home-page-background  {
+    background-size: contain; // 2250px auto;
     width: 6750px;
   }
 
@@ -148,7 +148,7 @@
       }
     }
 
-  #home-page-background-overlay {
+  .home-page-background-overlay {
     -moz-animation: background-overlay 1.5s 1.5s forwards;
     -webkit-animation: background-overlay 1.5s 1.5s forwards;
     -ms-animation: background-overlay 1.5s 1.5s forwards;
@@ -235,8 +235,8 @@
           }
         }
 
-      #home-page-background {
-        background-size: 1500px auto;
+      .home-page-background {
+        background-size: contain;
         width: 4500px;
       }
   }
@@ -310,9 +310,8 @@
           }
         }
 
-    #home-page-background {
-      background-size: 750px auto;
-      width: 2250px;
+    .home-page-background {
+      background-size: 3250px 100%;
     }
   }
 
@@ -386,9 +385,8 @@
           }
         }
 
-      #home-page-background {
-        background-size: 300px auto;
-        width: 900px;
+      .home-page-background {
+        background-size: 4000px 100%;
       }
   }
 
@@ -463,8 +461,7 @@
           }
         }
 
-      #home-page-background {
-        background-size: 412.5px auto;
-        width: 1237.5px;
+      .home-page-background {
+        background-size: 4000px 100%;
       }
   }
