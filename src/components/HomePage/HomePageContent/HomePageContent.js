@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'src/components/HomePage/HomePageContent/HomePageContent.scss';
 import {Link} from "react-router-dom";
-import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 
 class HomePageContent extends Component {
@@ -21,21 +20,31 @@ class HomePageContent extends Component {
                                         <span>Linkedin</span>
                                     </a>
                                 </li>
+                            </ul>
+                        </nav>
+                        <nav>
+                            <ul>
                                 <li>
                                     <a href="https://github.com/SlawomirGawron" className="fab fa-github" rel="noopener noreferrer" target="_blank">
                                         <span>Github</span>
                                     </a>
                                 </li>
-
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <Link to="/resume">
-                        <span className="home-page-learn-more-button">
-                            Learn More
-                        </span>
-                </Link>
+                <Button component={Link}
+                        to="/resume"
+                        variant="outlined"
+                        color="inherit"
+                        className="home-page-learn-more-button"
+                        style={{
+                            borderWidth: '0.1em',
+                            borderColor: 'white'
+                        }}
+                >
+                    <p className="home-page-learn-more-button-text">Learn More</p>
+                </Button>
                 <footer className="home-page-content-footer">
                     <span className="developer-name">Made by Slawomir Gawron</span>
                 </footer>

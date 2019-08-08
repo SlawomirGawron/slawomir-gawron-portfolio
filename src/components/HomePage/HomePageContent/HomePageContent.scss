@@ -26,24 +26,19 @@
     position: relative;
     top: 0;
 
-    line-height: 2em;
-    width: 10em;
-    height: 2em;
-    border: solid 1px #fff;
-
-    color: white;
-    font-size: 1.25em;
-
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-touch-callout: none;
-
-
   }
 
   .home-page-learn-more-button:hover {
     background-color: rgba(255, 255, 255, 0.175);
-    color: #fff;
+    color: white;
   }
+
+  /* home-page-learn-more-button-text */
+    .home-page-learn-more-button-text {
+      color: white;
+    }
 
   /* animations */
     .home-page-learn-more-button {
@@ -246,14 +241,10 @@
     color: white;
   }
 
-  /* Buttons */
+  /* External links Buttons */
   .home-page-content-header-buttons {
-
-
     display: flex;
     flex-direction: row;
-
-
   }
 
   .home-page-content-header-buttons nav {
@@ -279,7 +270,7 @@
     opacity: 0;
     position: relative;
     top: 0;
-    width: 5.35em;
+    width: 7em;
   }
 
   /* External links animations */
