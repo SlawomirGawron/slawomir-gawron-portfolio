@@ -1,3 +1,58 @@
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Learn More button */
+  /* Learn More button styling*/
+  .home-page-learn-more-button {
+    -moz-animation: nav-icons 0.5s ease-in-out forwards;
+    -webkit-animation: nav-icons 0.5s ease-in-out forwards;
+    -ms-animation: nav-icons 0.5s ease-in-out forwards;
+    animation: nav-icons 0.5s ease-in-out forwards;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+
+    display: block;
+    opacity: 0;
+    position: relative;
+    top: 0;
+
+    line-height: 2em;
+    width: 10em;
+    height: 2em;
+    border: solid 1px #fff;
+
+    color: white;
+    font-size: 1.25em;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+
+
+  }
+
+  .home-page-learn-more-button:hover {
+    background-color: rgba(255, 255, 255, 0.175);
+    color: #fff;
+  }
+
+  /* animations */
+    .home-page-learn-more-button {
+      -moz-animation-delay: 3s;
+      -webkit-animation-delay: 3s;
+      -ms-animation-delay: 3s;
+      animation-delay: 3s;
+    }
+
 /* Header */
   /* Header animations*/
     @-moz-keyframes header {
@@ -145,7 +200,7 @@
     }
   /* Header styling */
 
-  .landing-page-content-header {
+  .home-page-content-header {
     -moz-animation: header 1s 2.25s forwards;
     -webkit-animation: header 1s 2.25s forwards;
     -ms-animation: header 1s 2.25s forwards;
@@ -159,17 +214,24 @@
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     cursor: default;
-    display: inline-block;
-    opacity: 0;
-    position: relative;
-    text-align: center;
-    top: -1em;
-    vertical-align: middle;
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
+
+
+    opacity: 0;
+    top: -1em;
     width: 90%;
   }
 
-  .landing-page-content-header h1 {
+  /* Text */
+  .home-page-content-header-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-page-content-header-text h1 {
     font-size: 4.35em;
     font-weight: 900;
     letter-spacing: -0.035em;
@@ -177,18 +239,28 @@
     color: white;
   }
 
-  .landing-page-content-header p {
+  .home-page-content-header-text p {
     font-size: 1.25em;
     margin: 0.75em 0 0.25em 0;
     opacity: 0.75;
     color: white;
   }
 
-  .landing-page-content-header nav {
+  /* Buttons */
+  .home-page-content-header-buttons {
+
+
+    display: flex;
+    flex-direction: row;
+
+
+  }
+
+  .home-page-content-header-buttons nav {
     margin: 1.5em 0 0 0;
   }
 
-  .landing-page-content-header nav li {
+  .home-page-content-header-buttons nav li {
     -moz-animation: nav-icons 0.5s ease-in-out forwards;
     -webkit-animation: nav-icons 0.5s ease-in-out forwards;
     -ms-animation: nav-icons 0.5s ease-in-out forwards;
@@ -201,7 +273,7 @@
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
-    display: inline-block;
+    display: flex;
     height: 5.35em;
     line-height: 5.885em;
     opacity: 0;
@@ -211,14 +283,14 @@
   }
 
   /* External links animations */
-    .landing-page-content-header nav li:nth-child(1) {
+    .home-page-content-header-buttons nav li:nth-child(1) {
       -moz-animation-delay: 2.5s;
       -webkit-animation-delay: 2.5s;
       -ms-animation-delay: 2.5s;
       animation-delay: 2.5s;
     }
 
-    .landing-page-content-header nav li:nth-child(2) {
+    .home-page-content-header-buttons nav li:nth-child(2) {
       -moz-animation-delay: 2.75s;
       -webkit-animation-delay: 2.75s;
       -ms-animation-delay: 2.75s;
@@ -226,7 +298,7 @@
     }
 
   /* External Links icon */
-    .landing-page-content-header nav a {
+    .home-page-content-header-buttons nav a {
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       -webkit-touch-callout: none;
       border: 0;
@@ -234,7 +306,7 @@
       color: white;
     }
 
-    .landing-page-content-header nav a:before {
+    .home-page-content-header-buttons nav a:before {
       -moz-transition: all 0.2s ease-in-out;
       -webkit-transition: all 0.2s ease-in-out;
       -ms-transition: all 0.2s ease-in-out;
@@ -251,31 +323,31 @@
       width: 2.5em;
     }
 
-    .landing-page-content-header nav a:hover {
+    .home-page-content-header-buttons nav a:hover {
       font-size: 1.1em;
     }
 
-    .landing-page-content-header nav a:hover:before {
+    .home-page-content-header-buttons nav a:hover:before {
       background-color: rgba(255, 255, 255, 0.175);
       color: #fff;
     }
 
-    .landing-page-content-header nav a:active {
+    .home-page-content-header-buttons nav a:active {
       font-size: 0.95em;
       background: none;
     }
 
-    .landing-page-content-header nav a:active:before {
+    .home-page-content-header-buttons nav a:active:before {
       background-color: rgba(255, 255, 255, 0.35);
       color: #fff;
     }
 
-    .landing-page-content-header nav a span {
+    .home-page-content-header-buttons nav a span {
       display: none;
     }
 
 /* Footer */
-  .landing-page-content-footer {
+  .home-page-content-footer {
     background-image: -moz-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
     background-image: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
     background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
@@ -294,27 +366,27 @@
 /* Mobile */
   @media screen and (max-width: 736px) , screen and (max-height: 569px) {
     /* Header */
-      .banner-text h1 {
+      .home-page-content-header-text h1 {
         font-size: 2.5em;
       }
 
-      .banner-text p {
+      .home-page-content-header-text p {
         font-size: 1em;
       }
 
-      .landing-page-content-header nav {
+      .home-page-content-header-buttons nav {
         font-size: 1em;
       }
 
-      .landing-page-content-header nav a:hover {
+      .home-page-content-header-buttons nav a:hover {
         font-size: 1em;
       }
 
-      .landing-page-content-header nav a:active {
+      .home-page-content-header-buttons nav a:active {
         font-size: 1em;
       }
     /* Footer */
-    .landing-page-content-footer {
+    .home-page-content-footer {
       display: none;
     }
   }

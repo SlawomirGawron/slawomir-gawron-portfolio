@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import LandingPageContent from "src/components/LandingPage/LandingPageContent/LandingPageContent";
+import HomePageContent from "src/components/HomePage/HomePageContent/HomePageContent";
 
-import './LandingPage.scss';
+import 'src/components/HomePage/HomePage.scss';
 
-class LandingPage extends Component {
+class HomePage extends Component {
     render() {
         return (
             <div className="home-page">
                 <div className="home-page-background"/>
                 <div className="home-page-background-overlay"/>
-                <div className="landing-page">
-                    <LandingPageContent />
+                <div className="home-page-non-background">
+                    <HomePageContent />
                 </div>
             </div>
         );
     }
 }
 
-export default LandingPage;
+export default HomePage;
