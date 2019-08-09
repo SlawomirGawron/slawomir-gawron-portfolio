@@ -28,7 +28,12 @@ class ProjectCard extends Component {
                             color="primary"
                             key={button.text}
                     >
-                        <Typography variant="button">
+                        <Typography
+                            variant="button"
+                            style={{
+                                color: "white"
+                            }}
+                        >
                             <b>{button.text}</b>
                         </Typography>
                     </Button>
@@ -40,15 +45,15 @@ class ProjectCard extends Component {
     onClickImage() {
         const { onImageClickURL } = this.props;
         this.onClickRedirectToWebsite( onImageClickURL );
-
     }
 
     render() {
         const { component,
                 alt,
-                className,
-                imageHeightInpx,
-                imageWidthInpx,
+                maxHeight,
+                maxWidth,
+                imageHeight,
+                imageWidth,
                 image,
                 title,
                 summary
@@ -58,25 +63,34 @@ class ProjectCard extends Component {
             <Card
                 className="project-card"
                 style={{
-                    maxHeight: "500px",
-                    maxWidth: "500px"
+                    maxHeight: maxHeight,
+                    maxWidth: maxWidth
                 }}
             >
-                <CardActionArea>
-                    <CardMedia
-                        onClick={() => this.onClickImage()}
-                        component={component}
-                        alt={alt}
-                        className={className}
-                        image={image}
-                        title={title}
+                <div className="project-card-action-area-media">
+                    <CardActionArea
+                        className="project-card-action-area"
                         style={{
-                            height: imageHeightInpx,
-                            width: imageWidthInpx
+                            border: "double",
+                            borderBottom: "0"
                         }}
-                    />
-                </CardActionArea>
-                <CardContent>
+                    >
+
+                        <CardMedia
+                            onClick={() => this.onClickImage()}
+                            component={component}
+                            alt={alt}
+                            className="project-card-media"
+                            image={image}
+                            title={title}
+                            style={{
+                                height: imageHeight,
+                                width: imageWidth
+                            }}
+                        />
+                    </CardActionArea>
+                </div>
+                <CardContent className="project-card-text">
                     <Typography gutterBottom variant="h5" component="h2">
                         {title}
                     </Typography>
@@ -85,7 +99,7 @@ class ProjectCard extends Component {
                     </Typography>
                 </CardContent>
 
-                <CardActions>
+                <CardActions className="project-card-buttons">
                     {this.createButtons()}
                 </CardActions>
             </Card>
@@ -96,9 +110,10 @@ class ProjectCard extends Component {
 ProjectCard.propTypes = {
     component: PropTypes.string.isRequired,
     alt: PropTypes.string.isRequired,
-    className: PropTypes.string.isRequired,
-    imageHeightInpx: PropTypes.string.isRequired,
-    imageWidthInpx: PropTypes.string.isRequired,
+    maxHeight: PropTypes.string.isRequired,
+    maxWidth: PropTypes.string.isRequired,
+    imageHeight: PropTypes.number.isRequired,
+    imageWidth: PropTypes.number.isRequired,
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,

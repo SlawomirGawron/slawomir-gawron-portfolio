@@ -1,0 +1,22 @@
+@import "src/common/utilities/variables.scss";
+
+.project-card-text {
+  border: double;
+  border-bottom: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-card-buttons {
+  border: double;
+  justify-content: center;
+  background: $page-fallback-background;
+  background:$page-background1;
+  background:$page-background2;
+}
+
+@media screen and (max-width: 501px) , screen and (max-height: 690px) {
+  .project-card-action-area-media {
+    display: none;
+  }
+}

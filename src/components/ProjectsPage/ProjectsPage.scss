@@ -12,15 +12,7 @@
 }
 
 .projects-page-grid {
-  //background: $page-fallback-background;
-  //background: $page-background1;
-  //background: $page-background2;
-  background: black url(../../images/home-background-galaxy.jpg) repeat-x bottom left;
-  height: 100%;
-  left: 0;
-  opacity: 1;
-  top: 0;
-
+  background: black url(../../images/home-background-galaxy.jpg);
   padding: $page-padding;
   flex: 1;
 }

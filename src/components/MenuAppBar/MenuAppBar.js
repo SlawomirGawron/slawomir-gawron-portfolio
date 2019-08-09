@@ -33,11 +33,11 @@ class MenuAppBar extends Component {
                                     Resume
                                 </Typography>
                             </Button>
-                            <Button color="inherit" component={Link} to="/aboutMe">
-                                <Typography color="inherit" variant="button">
-                                    About Me
-                                </Typography>
-                            </Button>
+                            {/*<Button color="inherit" component={Link} to="/aboutMe">*/}
+                            {/*    <Typography color="inherit" variant="button">*/}
+                            {/*        About Me*/}
+                            {/*    </Typography>*/}
+                            {/*</Button>*/}
                             <Button color="inherit" component={Link} to="/projects">
                                 <Typography color="inherit" variant="button">
                                     Projects

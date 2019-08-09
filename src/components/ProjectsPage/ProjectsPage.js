@@ -29,9 +29,10 @@ class ProjectsPage extends Component {
                 <ProjectCard
                     component="img"
                     alt="project-0"
-                    className="project-0-name0"
-                    imageHeightInpx="250px"
-                    imageWidthInpx="400px"
+                    maxHeight= "500px"
+                    maxWidth= "500px"
+                    imageHeight={250}
+                    imageWidth={400}
                     image={TicTacToeGameImage}
                     title="Tic Tac Toe"
                     summary="A simple Tic Tac Toe game built using react."
@@ -51,9 +52,10 @@ class ProjectsPage extends Component {
                 <ProjectCard
                     component="img"
                     alt="project-1"
-                    className="project-1-name1"
-                    imageHeightInpx="300px"
-                    imageWidthInpx="400px"
+                    maxHeight= "500px"
+                    maxWidth= "500px"
+                    imageHeight={250}
+                    imageWidth={400}
                     image="https://assets.exercism.io/tracks/java-bordered-turquoise.png"
                     title="Title 1"
                     summary="Tab 1 summary"
@@ -74,9 +76,10 @@ class ProjectsPage extends Component {
                 <ProjectCard
                     component="img"
                     alt="project-2"
-                    className="project-2-name2"
-                    imageHeightInpx="300px"
-                    imageWidthInpx="400px"
+                    maxHeight= "500px"
+                    maxWidth= "500px"
+                    imageHeight={250}
+                    imageWidth={400}
                     image="https://raddevon.com/wp-content/uploads/2018/10/react.jpg"
                     title="Title 2"
                     summary="Tab 2 summary"
@@ -95,6 +98,13 @@ class ProjectsPage extends Component {
                 alert("Error #101")
             );
         }
+    }
+
+    componentDidMount() {
+        this.setState({
+            imageHeightInpx: this.props.mH,
+            imageWidthInpx: this.props.mW
+        });
     }
 
     render() {
@@ -116,7 +126,7 @@ class ProjectsPage extends Component {
                 </Tabs>
 
                 <Grid container
-                      spacing={15}
+                      spacing={16}
                       className="projects-page-grid"
                       alignItems="center"
                       direction="column"

@@ -1,9 +1,7 @@
 @import "src/common/utilities/variables.scss";
 
 .resume-page {
-  background: $page-fallback-background;
-  background: $page-background1;
-  background: $page-background2;
+  background: black url(../../images/home-background-galaxy.jpg);
   padding: $page-padding;
   display: flex;
   flex: 1;

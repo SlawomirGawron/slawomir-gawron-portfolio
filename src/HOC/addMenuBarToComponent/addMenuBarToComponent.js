@@ -11,7 +11,7 @@ function getDisplayName(WrappedComponent) {
 }
 
 function addMenuBarToComponent(WrappedComponent) {
-    class AddCustomScrollbars extends Component {
+    class AddMenuToComponent extends Component {
         render() {
             return (
                 <div className="add-menu-to-component">
@@ -22,9 +22,9 @@ function addMenuBarToComponent(WrappedComponent) {
         }
     }
 
-    AddCustomScrollbars.displayName = `AddMenuToComponent(${getDisplayName(WrappedComponent)})`;
+    addMenuBarToComponent.displayName = `AddMenuToComponent(${getDisplayName(WrappedComponent)})`;
 
-    return AddCustomScrollbars;
+    return AddMenuToComponent;
 }
 
 export default addMenuBarToComponent;
