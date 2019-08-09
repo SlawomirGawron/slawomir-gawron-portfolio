@@ -34,7 +34,7 @@ class Contacts extends Component {
                             className="portfolio-photo-contact"
                         />
                         <Typography className="contact-paragraph" variant="body1" gutterBottom>
-                            <b>Preferred method of contact:</b> email <br/>
+                            <b>Preferred method of contact:</b> Email <br/>
                             <b>Availability</b> 10:00 am - 7:00 pm <br/>
                             If necessary, I can use other forms of communication.
                         </Typography>
