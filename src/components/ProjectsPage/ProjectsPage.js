@@ -130,6 +130,10 @@ class ProjectsPage extends Component {
                       className="projects-page-grid"
                       alignItems="center"
                       direction="column"
+                      style={{
+                          margin: 0,
+                          width: '100%',
+                      }}
                 >
                     <Grid item>
                         <div className="projects-grid-content">
