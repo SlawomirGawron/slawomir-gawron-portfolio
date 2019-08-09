@@ -116,7 +116,7 @@ class ProjectsPage extends Component {
                 </Tabs>
 
                 <Grid container
-                      spacing={16}
+                      spacing={15}
                       className="projects-page-grid"
                       alignItems="center"
                       direction="column"
