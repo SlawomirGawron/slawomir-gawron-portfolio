@@ -1,3 +1,23 @@
+# Slawomir Gawron Portfolio Website
+
+The following website was created using 
+ - React
+ - HTML
+ - CSS/SCSS
+ 
+ The primary purpose of this website is to allow potential employers to have access to demos of my work.
+ The website also contains my resume, my contact information, and any other relevant information required by employers. 
+ If I'm missing anything, please feel free to email me.
+ 
+ The majority of my React knowledge comes from diligent self study, while working regular hours at my current employment.
+ I wish I had unlimited time to fine tune my portfolio website, however I think my focus would be better served on creating cool 
+ and complex projects. Some of my projects (for example my Java projects) still need to be made available to the web. 
+ 
+ At the end of the day, I'm still a junior developer; hence my work may have some flaws. However, I'm a quick learner and I like producing excellent work 
+ (if something needs changing/improvement, I'll gladly do it).
+ 
+# Boilerplate React App commands 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
