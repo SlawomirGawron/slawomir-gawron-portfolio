@@ -28,14 +28,14 @@ function Skills(props) {
                   direction="row"
                   alignItems="stretch"
             >
-                <Grid item xs={2} className="skills-column-left">
+                <Grid item xs={6} sm={6} md={2} lg={2} className="skills-column-left">
 
                     <Typography color="inherit" variant="body1" gutterBottom>
                         {props.skill}
                     </Typography>
 
                 </Grid>
-                <Grid item xs={10} className="skills-column-right">
+                <Grid item xs={6} sm={6} md={10} lg={10} className="skills-column-right">
                     <LinearProgress
                         classes={{
                             colorPrimary: classes.linearColorPrimary,
