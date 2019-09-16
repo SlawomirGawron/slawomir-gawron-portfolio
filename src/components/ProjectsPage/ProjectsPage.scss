@@ -16,3 +16,15 @@
   padding: $page-padding;
   flex: 1;
 }
+
+.react-projects {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+  .react-projects {
+    display: flex;
+    flex-direction: column;
+  }
+}

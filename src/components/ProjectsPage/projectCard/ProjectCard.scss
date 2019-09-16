@@ -1,5 +1,13 @@
 @import "../../../common/utilities/variables.scss";
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+
 .project-card-text {
   border: double;
   border-bottom: 0;
