@@ -3,17 +3,22 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
 import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
-import TicTacToeGameImage from "src/images/TicTacToe.png";
-import ShoppingCartImage from "src/images/shopping-cart-temp.jpg";
+import TicTacToeGameImage from "src/images/Tic-Tac-Toe-Game.png";
+import ShoppingCartImage from "src/images/Shopping-Cart.png";
 import addMenuBarToComponent from "src/HOC/addMenuBarToComponent/addMenuBarToComponent";
 
 import './ProjectsPage.scss';
+
+const maxHeight = "500px";
+const maxWidth = "500px";
 
 class ProjectsPage extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            activeTab: 0
+            activeTab: 0,
+            maxHeight: "600px",
+            maxWidth: "600px",
         };
     };
 
@@ -22,7 +27,7 @@ class ProjectsPage extends Component {
     };
 
     toggleCategories() {
-        const { activeTab } = this.state;
+        const { activeTab, maxHeight, maxWidth } = this.state;
 
         if (activeTab === 0) {
             return (
@@ -30,8 +35,8 @@ class ProjectsPage extends Component {
                     <ProjectCard
                         component="img"
                         alt="project-0"
-                        maxHeight= "500px"
-                        maxWidth= "500px"
+                        maxHeight={maxHeight}
+                        maxWidth={maxWidth}
                         imageHeight={250}
                         imageWidth={400}
                         image={TicTacToeGameImage}
@@ -49,8 +54,8 @@ class ProjectsPage extends Component {
                     <ProjectCard
                         component="img"
                         alt="project-1"
-                        maxHeight= "500px"
-                        maxWidth= "500px"
+                        maxHeight={maxHeight}
+                        maxWidth={maxWidth}
                         imageHeight={250}
                         imageWidth={400}
                         image={ShoppingCartImage}
@@ -74,8 +79,8 @@ class ProjectsPage extends Component {
                     <ProjectCard
                         component="img"
                         alt="project-10"
-                        maxHeight= "500px"
-                        maxWidth= "500px"
+                        maxHeight={maxHeight}
+                        maxWidth={maxWidth}
                         imageHeight={250}
                         imageWidth={400}
                         image="https://assets.exercism.io/tracks/java-bordered-turquoise.png"
@@ -99,8 +104,8 @@ class ProjectsPage extends Component {
                     <ProjectCard
                         component="img"
                         alt="project-2"
-                        maxHeight= "500px"
-                        maxWidth= "500px"
+                        maxHeight={maxHeight}
+                        maxWidth={maxWidth}
                         imageHeight={250}
                         imageWidth={400}
                         image="https://raddevon.com/wp-content/uploads/2018/10/react.jpg"

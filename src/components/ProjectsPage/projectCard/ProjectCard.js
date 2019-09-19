@@ -75,19 +75,20 @@ class ProjectCard extends Component {
                             borderBottom: "0"
                         }}
                     >
-
-                        <CardMedia
-                            onClick={() => this.onClickImage()}
-                            component={component}
-                            alt={alt}
-                            className="project-card-media"
-                            image={image}
-                            title={title}
-                            style={{
-                                height: imageHeight,
-                                width: imageWidth
-                            }}
-                        />
+                        <div className="project-card-media-wrapper">
+                            <CardMedia
+                                onClick={() => this.onClickImage()}
+                                component={component}
+                                alt={alt}
+                                className="project-card-media"
+                                image={image}
+                                title={title}
+                                style={{
+                                    height: imageHeight,
+                                    width: imageWidth,
+                                }}
+                            />
+                        </div>
                     </CardActionArea>
                 </div>
                 <CardContent className="project-card-text">

@@ -23,6 +23,13 @@
   background:$page-background2;
 }
 
+.project-card-media-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
 @media screen and (max-width: 501px) , screen and (max-height: 690px) {
   .project-card-action-area-media {
     display: none;
