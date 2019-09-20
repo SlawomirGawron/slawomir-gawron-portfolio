@@ -1,5 +1,9 @@
 @import "../../common/utilities/variables.scss";
 
+.menu-app-bar {
+  width: 100%;
+}
+
 .toolbar {
   justify-content: space-between;
 }
@@ -14,18 +18,22 @@
 @media screen and (max-width: 650px) {
   .toolbar {
     justify-content: space-between;
-    display: flex;
     flex-direction: column;
   }
 
   .left-side-menu {
-    display: flex;
     flex-direction: column;
   }
 
   .right-side-menu {
-    display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .menu-app-bar {
+    margin: auto;
+    min-width: 340px;
   }
 }
 

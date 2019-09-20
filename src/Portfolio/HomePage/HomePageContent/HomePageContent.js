@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import 'src/components/HomePage/HomePageContent/HomePageContent.scss';
+import 'src/Portfolio/HomePage/HomePageContent/HomePageContent.scss';
 import {Link} from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Typography from '@material-ui/core/Typography';

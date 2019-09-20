@@ -10,7 +10,7 @@
     width: 100%;
 
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
   }
 
 /* Background */
@@ -468,16 +468,10 @@
   }
 
 /* Other */
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 340px) {
     .home-page {
       margin-left: auto;
       min-width: 320px;
       overflow-x: auto;
-    }
-  }
-
-  @media screen and (max-height: 500px) {
-    .home-page {
-      overflow-y: auto;
     }
   }

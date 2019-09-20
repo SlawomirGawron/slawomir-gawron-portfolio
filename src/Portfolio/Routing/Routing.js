@@ -1,11 +1,11 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
-import HomePage from "src/components/HomePage/HomePage";
-import ProjectsPage from "src/components/ProjectsPage/ProjectsPage";
-import ResumePage from "src/components/ResumePage/ResumePage";
-import ErrorPage from "src/components/ErrorPage/ErrorPage";
-import ContactPage from "src/components/ContactPage/ContactPage";
+import HomePage from "src/Portfolio/HomePage/HomePage";
+import ProjectsPage from "src/Portfolio/ProjectsPage/ProjectsPage";
+import ResumePage from "src/Portfolio/ResumePage/ResumePage";
+import ErrorPage from "src/Portfolio/ErrorPage/ErrorPage";
+import ContactPage from "src/Portfolio/ContactPage/ContactPage";
 
 const Routing = () => (
     <Switch>

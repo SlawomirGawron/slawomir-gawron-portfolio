@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Grid from "@material-ui/core/Grid";
 import Typography from '@material-ui/core/Typography';
-import Education from "src/components/ResumePage/Education/Education";
-import Employment from "src/components/ResumePage/Employment/Employment";
-import Skills from "src/components/ResumePage/skills/Skills";
+import Education from "src/Portfolio/ResumePage/Education/Education";
+import Employment from "src/Portfolio/ResumePage/Employment/Employment";
+import Skills from "src/Portfolio/ResumePage/skills/Skills";
 import avatar from "src/images/Slawomir-Gawron-Photo.png";
 import addMenuBarToComponent from "src/HOC/addMenuBarToComponent/addMenuBarToComponent";
 

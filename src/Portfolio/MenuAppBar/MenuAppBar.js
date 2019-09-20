@@ -11,7 +11,7 @@ import './MenuAppBar.scss';
 class MenuAppBar extends Component {
     render() {
         return (
-            <div>
+            <div className="menu-app-bar">
                 <AppBar position="static" className="app-bar">
                     <Toolbar className="toolbar">
                         {/*Left hand side of menu.*/}
@@ -33,11 +33,6 @@ class MenuAppBar extends Component {
                                     Resume
                                 </Typography>
                             </Button>
-                            {/*<Button color="inherit" component={Link} to="/aboutMe">*/}
-                            {/*    <Typography color="inherit" variant="button">*/}
-                            {/*        About Me*/}
-                            {/*    </Typography>*/}
-                            {/*</Button>*/}
                             <Button color="inherit" component={Link} to="/projects">
                                 <Typography color="inherit" variant="button">
                                     Projects

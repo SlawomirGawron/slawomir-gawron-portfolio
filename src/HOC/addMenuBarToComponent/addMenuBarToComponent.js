@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MenuAppBar from "src/components/MenuAppBar/MenuAppBar";
+import MenuAppBar from "src/Portfolio/MenuAppBar/MenuAppBar";
 
 import 'src/HOC/addMenuBarToComponent/addMenuBarToComponent.scss';
 

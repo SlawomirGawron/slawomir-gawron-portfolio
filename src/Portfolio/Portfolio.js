@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Routing from "src/components/Routing/Routing";
+import Routing from "src/Portfolio/Routing/Routing";
 
-import './PortfolioWebsite.scss';
+import 'src/Portfolio/Portfolio.scss';
 
-class PortfolioWebsite extends Component {
+class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio-website">
@@ -13,4 +13,4 @@ class PortfolioWebsite extends Component {
     }
 }
 
-export default PortfolioWebsite;
+export default Portfolio;

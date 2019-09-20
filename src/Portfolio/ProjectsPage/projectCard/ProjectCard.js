@@ -50,8 +50,6 @@ class ProjectCard extends Component {
     render() {
         const { component,
                 alt,
-                maxHeight,
-                maxWidth,
                 imageHeight,
                 imageWidth,
                 image,
@@ -62,10 +60,6 @@ class ProjectCard extends Component {
         return (
             <Card
                 className="project-card"
-                style={{
-                    maxHeight: maxHeight,
-                    maxWidth: maxWidth
-                }}
             >
                 <div className="project-card-action-area-media">
                     <CardActionArea
@@ -111,8 +105,6 @@ class ProjectCard extends Component {
 ProjectCard.propTypes = {
     component: PropTypes.string.isRequired,
     alt: PropTypes.string.isRequired,
-    maxHeight: PropTypes.string.isRequired,
-    maxWidth: PropTypes.string.isRequired,
     imageHeight: PropTypes.number.isRequired,
     imageWidth: PropTypes.number.isRequired,
     image: PropTypes.string.isRequired,

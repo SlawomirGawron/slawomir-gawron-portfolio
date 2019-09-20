@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Grid from '@material-ui/core/Grid';
-import ProjectCard from "src/components/ProjectsPage/projectCard/ProjectCard";
+import ProjectCard from "src/Portfolio/ProjectsPage/projectCard/ProjectCard";
 import TicTacToeGameImage from "src/images/Tic-Tac-Toe-Game.png";
 import ShoppingCartImage from "src/images/Shopping-Cart.png";
 import addMenuBarToComponent from "src/HOC/addMenuBarToComponent/addMenuBarToComponent";
@@ -14,8 +14,6 @@ class ProjectsPage extends Component {
         super(props);
         this.state = {
             activeTab: 0,
-            maxHeight: "600px",
-            maxWidth: "600px",
         };
     };
 
@@ -24,7 +22,7 @@ class ProjectsPage extends Component {
     };
 
     toggleCategories() {
-        const { activeTab, maxHeight, maxWidth } = this.state;
+        const { activeTab } = this.state;
 
         if (activeTab === 0) {
             return (
@@ -32,8 +30,6 @@ class ProjectsPage extends Component {
                     <ProjectCard
                         component="img"
                         alt="project-0"
-                        maxHeight={maxHeight}
-                        maxWidth={maxWidth}
                         imageHeight={250}
                         imageWidth={400}
                         image={TicTacToeGameImage}
@@ -51,8 +47,6 @@ class ProjectsPage extends Component {
                     <ProjectCard
                         component="img"
                         alt="project-1"
-                        maxHeight={maxHeight}
-                        maxWidth={maxWidth}
                         imageHeight={250}
                         imageWidth={400}
                         image={ShoppingCartImage}
@@ -73,50 +67,11 @@ class ProjectsPage extends Component {
         } else if (activeTab === 1) {
             return (
                 <div className="java-projects">
-                    <ProjectCard
-                        component="img"
-                        alt="project-10"
-                        maxHeight={maxHeight}
-                        maxWidth={maxWidth}
-                        imageHeight={250}
-                        imageWidth={400}
-                        image="https://assets.exercism.io/tracks/java-bordered-turquoise.png"
-                        title="Title 1"
-                        summary="Tab 1 summary"
-                        onImageClickURL="https://react-redux.js.org/"
-                        buttonsList={
-                            [
-                                {text: "Learn More", url: "https://www.google.ca/"},
-                                {text: "button 1", url: "https://react-redux.js.org/"},
-                                {text: "button 2", url: "https://react-redux.js.org/"},
-                            ]
-                        }
-
-                    />
                 </div>
             );
         } else if (activeTab === 2) {
             return (
                 <div className="other-projects">
-                    <ProjectCard
-                        component="img"
-                        alt="project-2"
-                        maxHeight={maxHeight}
-                        maxWidth={maxWidth}
-                        imageHeight={250}
-                        imageWidth={400}
-                        image="https://raddevon.com/wp-content/uploads/2018/10/react.jpg"
-                        title="Title 2"
-                        summary="Tab 2 summary"
-                        onImageClickURL="https://react-redux.js.org/"
-                        buttonsList={
-                            [
-                                {text: "Learn More", url: "https://www.google.ca/"},
-                                {text: "button 1", url: "https://react-redux.js.org/"},
-                                {text: "button 2", url: "https://react-redux.js.org/"},
-                            ]
-                        }
-                    />
                 </div>
             );
         } else {

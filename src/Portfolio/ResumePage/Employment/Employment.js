@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 
-import 'src/components/ResumePage/Employment/Employment.scss';
+import 'src/Portfolio/ResumePage/Employment/Employment.scss';
 
 class Employment extends Component {
     render() {
