@@ -1,15 +1,16 @@
 /* Ungrouped styling */
   .home-page {
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
     display: flex;
-    flex: 1;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
 /* Background */
@@ -464,4 +465,19 @@
       .home-page-background {
         background-size: 4000px 100%;
       }
+  }
+
+/* Other */
+  @media screen and (max-width: 320px) {
+    .home-page {
+      margin-left: auto;
+      min-width: 320px;
+      overflow-x: auto;
+    }
+  }
+
+  @media screen and (max-height: 500px) {
+    .home-page {
+      overflow-y: auto;
+    }
   }

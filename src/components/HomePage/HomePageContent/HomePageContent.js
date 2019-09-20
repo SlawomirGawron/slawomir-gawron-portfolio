@@ -2,6 +2,16 @@ import React, { Component } from 'react';
 import 'src/components/HomePage/HomePageContent/HomePageContent.scss';
 import {Link} from "react-router-dom";
 import Button from "@material-ui/core/Button";
+import Typography from '@material-ui/core/Typography';
+
+const styles = {
+    button: {
+        display: 'flex',
+        flex: '1',
+        borderWidth: '0.1em',
+        borderColor: 'white',
+    },
+};
 
 class HomePageContent extends Component {
     render() {
@@ -38,15 +48,14 @@ class HomePageContent extends Component {
                         variant="outlined"
                         color="inherit"
                         className="home-page-learn-more-button"
-                        style={{
-                            borderWidth: '0.1em',
-                            borderColor: 'white'
-                        }}
+                        style={styles.button}
                 >
                     <p className="home-page-learn-more-button-text">Learn More</p>
                 </Button>
                 <footer className="home-page-content-footer">
-                    <span className="developer-name">Made by Slawomir Gawron</span>
+                    <Typography variant="body2" color="inherit" gutterBottom>
+                        Made by Slawomir Gawron
+                    </Typography>
                 </footer>
             </div>
         );

@@ -9,9 +9,6 @@ import addMenuBarToComponent from "src/HOC/addMenuBarToComponent/addMenuBarToCom
 
 import './ProjectsPage.scss';
 
-const maxHeight = "500px";
-const maxWidth = "500px";
-
 class ProjectsPage extends Component {
     constructor (props) {
         super(props);
