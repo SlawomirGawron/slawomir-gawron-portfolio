@@ -35,13 +35,7 @@ class ResumePage extends Component {
                         </Typography>
                         <hr style={{borderTop: "3px solid black", width: "100%"}}/>
                         <Typography className="resume-paragraph" variant="body1" gutterBottom>
-                            A recent graduate who has a strong enthusiasm towards software development and technology. During his
-                            time at the University of Guelph, he obtained valuable skills which aid him in the development of scalable, maintainable, and extensible software.
-                            Some of these skills include: creating code given a set of time and space complexity constraints; the importance of easy to read code in a
-                            collaborative environment; the importance of choosing the right software tools or languages for a given project; and the importance of documentation.
-                            His primary focus has been on education (his performance in academia is the primary indicator of this fact); now his goal is obtaining an entry level job
-                            in the field of Computer Science/IT. He is focused, dedicated, a quick learner, punctual, approachable, and sociable.
-                            Given the opportunity, he can be a valuable addition to your team.
+                            An entry-level software developer who has a strong enthusiasm towards software development and technology. During his time at the University of Guelph, he obtained valuable skills that aid him in the development of scalable, maintainable, and extensible software. Some of these skills include creating code given a set of time and space complexity constraints; the importance of easy to read code in a collaborative environment; the importance of choosing the right software tools or languages for the given project; and the importance of documentation. His primary focus has been on education; now his goal is obtaining an entry-level job in the field of Computer Science/IT. He is focused, dedicated, a quick learner, punctual, approachable, and sociable. Given the opportunity, he can be a valuable addition to your team.
                         </Typography>
                         <hr style={{borderTop: "3px solid black", width: "100%"}}/>
                         <Typography style={{margin: '0'}} variant="h6" gutterBottom>
