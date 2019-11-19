@@ -118,7 +118,7 @@ class ResumePage extends Component {
                             />
                             <Skills
                                 skill="SQL"
-                                progress={50}
+                                progress={75}
                             />
                             <Skills
                                 skill="Data Structures"
@@ -130,7 +130,7 @@ class ResumePage extends Component {
                             />
                             <Skills
                                 skill="GitHub"
-                                progress={100}
+                                progress={75}
                             />
                             <Skills
                                 skill="Spring"
