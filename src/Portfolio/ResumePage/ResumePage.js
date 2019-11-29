@@ -72,7 +72,7 @@ class ResumePage extends Component {
                             Education
                         </Typography>
                         <Education
-                            startDate="01/2014"
+                            startDate="01/2015"
                             endDate="06/2017"
                             schoolName="University of Guelph"
                             degreeName="Bachelor of Computing: Computer Science, Minor: Mathematics"
@@ -85,9 +85,9 @@ class ResumePage extends Component {
                             Employment
                         </Typography>
                         <Employment
-                            startDate="2006"
+                            startDate="2010"
                             endDate="Current"
-                            jobTitle="Janitor"
+                            jobTitle="Janitor/Cleaner"
                             description="Mopping, Vacuuming, Dusting, Windows, etc"
                         />
                         <hr style={{borderTop: "3px solid white"}} />
