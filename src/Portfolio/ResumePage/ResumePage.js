@@ -35,7 +35,7 @@ class ResumePage extends Component {
                         </Typography>
                         <hr style={{borderTop: "3px solid black", width: "100%"}}/>
                         <Typography className="resume-paragraph" variant="body1" gutterBottom>
-                            An entry-level software developer who has a strong enthusiasm towards software development and technology. During his time at the University of Guelph, he obtained valuable skills that aid him in the development of scalable, maintainable, and extensible software. Some of these skills include creating code given a set of time and space complexity constraints; the importance of easy to read code in a collaborative environment; the importance of choosing the right software tools or languages for the given project; and the importance of documentation. His primary focus has been on education; now his goal is obtaining an entry-level job in the field of Computer Science/IT. He is focused, dedicated, a quick learner, punctual, approachable, and sociable. Given the opportunity, he can be a valuable addition to your team.
+                            Slawomir is a life-long learner who has a strong passion towards software development and technology. During his time at the University of Guelph and through diligent self-study, he has obtained valuable skills that aid him in the development of scalable, maintainable, and extensible software. Some of these skills include creating code given a set of time and space complexity constraints, the importance of easy to read code in a collaborative environment, the importance of choosing the right software tools or languages for the given project, and the importance of documentation. He is organized, focused, dedicated, a quick learner, punctual, approachable, and sociable. Given the opportunity, Slawomir can be a valuable addition to your team.
                         </Typography>
                         <hr style={{borderTop: "3px solid black", width: "100%"}}/>
                         <Typography style={{margin: '0'}} variant="h6" gutterBottom>
@@ -85,8 +85,14 @@ class ResumePage extends Component {
                             Employment
                         </Typography>
                         <Employment
-                            startDate="2010"
+                            startDate="12/2019"
                             endDate="Current"
+                            jobTitle="FDM Group Consultant"
+                            description="Software developer working for one of FDM Group's various clients"
+                        />
+                        <Employment
+                            startDate="06/2012"
+                            endDate="12/2019"
                             jobTitle="Janitor/Cleaner"
                             description="Mopping, Vacuuming, Dusting, Windows, etc"
                         />
@@ -105,11 +111,11 @@ class ResumePage extends Component {
                                 progress={75}
                             />
                             <Skills
-                                skill="HTML 5"
+                                skill="HTML"
                                 progress={75}
                             />
                             <Skills
-                                skill="CSS 3"
+                                skill="CSS"
                                 progress={75}
                             />
                             <Skills
@@ -138,7 +144,7 @@ class ResumePage extends Component {
                             />
                             <Skills
                                 skill="Agile"
-                                progress={50}
+                                progress={75}
                             />
                             <Skills
                                 skill="Calculus"

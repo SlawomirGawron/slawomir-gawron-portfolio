@@ -102,8 +102,8 @@ class ProjectsPage extends Component {
                     centered
                 >
                     <Tab label="React" />
-                    <Tab label="Java" />
-                    <Tab label="Other" />
+                    {/*<Tab label="Java" />*/}
+                    {/*<Tab label="Other" />*/}
                 </Tabs>
 
                 <Grid container
