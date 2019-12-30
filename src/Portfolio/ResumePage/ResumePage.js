@@ -87,8 +87,8 @@ class ResumePage extends Component {
                         <Employment
                             startDate="12/2019"
                             endDate="Current"
-                            jobTitle="FDM Group Consultant"
-                            description="Software developer working for one of FDM Group's various clients"
+                            jobTitle="FDM Group Trainee"
+                            description="Obtaining valuable training that's required to start working as a consultant for FDM Group's various clients"
                         />
                         <Employment
                             startDate="06/2012"
