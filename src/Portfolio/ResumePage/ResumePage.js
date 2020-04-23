@@ -104,27 +104,47 @@ class ResumePage extends Component {
                         <div className="resume-page-skills-section">
                             <Skills
                                 skill="Java"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="React"
+                                progress={100}
+                            />
+                            <Skills
+                                skill="Redux"
+                                progress={100}
+                            />
+                            <Skills
+                                skill="Spring"
+                                progress={100}
+                            />
+                            <Skills
+                                skill="Docker"
+                                progress={75}
+                            />
+                            <Skills
+                                skill="Kubernetes"
+                                progress={75}
+                            />
+                            <Skills
+                                skill="Kafka"
                                 progress={75}
                             />
                             <Skills
                                 skill="HTML"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="CSS"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="JavaScript"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="SQL"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="Data Structures"
@@ -132,27 +152,23 @@ class ResumePage extends Component {
                             />
                             <Skills
                                 skill="Object Oriented Programming"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="GitHub"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
-                                skill="Spring"
-                                progress={50}
-                            />
-                            <Skills
-                                skill="Agile"
-                                progress={75}
+                                skill="Scrum"
+                                progress={100}
                             />
                             <Skills
                                 skill="Calculus"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="Algebra"
-                                progress={75}
+                                progress={100}
                             />
                             <Skills
                                 skill="Combinatorics"
