@@ -20,7 +20,7 @@ class HomePageContent extends Component {
                 <div className="home-page-content-header">
                     <div className="home-page-content-header-text">
                         <h1>Junior Software Developer</h1>
-                        <p> React &nbsp;&bull;&nbsp; HTML &nbsp;&bull;&nbsp; CSS &nbsp;&bull;&nbsp; JavaScript &nbsp;&bull;&nbsp; Java &nbsp;&bull;&nbsp; SQL </p>
+                        <p> Java &nbsp;&bull;&nbsp; Spring &nbsp;&bull;&nbsp; React &nbsp;&bull;&nbsp; Docker &nbsp;&bull;&nbsp; Kubernetes &nbsp;&bull;&nbsp; Kafka &nbsp;&bull;&nbsp; HTML &nbsp;&bull;&nbsp; CSS &nbsp;&bull;&nbsp; JavaScript &nbsp;&bull;&nbsp; SQL </p>
                     </div>
                     <div className="home-page-content-header-buttons">
                         <nav>
