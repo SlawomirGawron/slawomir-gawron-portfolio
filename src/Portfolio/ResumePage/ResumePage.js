@@ -85,10 +85,16 @@ class ResumePage extends Component {
                             Employment
                         </Typography>
                         <Employment
+                            startDate="6/2020"
+                            endDate="Current"
+                            jobTitle="Application Programmer"
+                            description="FDM IT consultant at Citi"
+                        />
+                        <Employment
                             startDate="12/2019"
                             endDate="Current"
-                            jobTitle="FDM Group Trainee"
-                            description="Obtaining valuable training that's required to start working as a consultant for FDM Group's various clients"
+                            jobTitle="FDM Group IT Consultant"
+                            description="Successfully completed the training and currently working for Citi as a consultant"
                         />
                         <Employment
                             startDate="06/2012"
