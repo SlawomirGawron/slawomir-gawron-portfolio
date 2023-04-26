@@ -44,7 +44,7 @@ class HomePageContent extends Component {
                     </div>
                 </div>
                 <Button component={Link}
-                        to="/resume"
+                        to="/contact"
                         variant="outlined"
                         color="inherit"
                         className="home-page-learn-more-button"

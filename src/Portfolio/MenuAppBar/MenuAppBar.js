@@ -28,11 +28,11 @@ class MenuAppBar extends Component {
                                     style={{fontSize: 25}}
                                 />
                             </Button>
-                            <Button color="inherit" component={Link} to="/resume">
-                                <Typography color="inherit" variant="button">
-                                    Resume
-                                </Typography>
-                            </Button>
+//                            <Button color="inherit" component={Link} to="/resume">
+//                                <Typography color="inherit" variant="button">
+//                                    Resume
+//                                </Typography>
+//                            </Button>
                             <Button color="inherit" component={Link} to="/projects">
                                 <Typography color="inherit" variant="button">
                                     Projects
